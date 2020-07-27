@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- This disables the black preview screen 解决跳转出现短暂的白屏或黑屏现象-->
+        <item name="android:windowDisablePreview">true</item>
+        <!--更换系统字体-->
+        <!--<item name="android:fontFamily">@font/timesnewromanpsmt</item>-->
+    </style>
+</resources>
